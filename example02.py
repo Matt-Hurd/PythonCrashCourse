@@ -17,7 +17,7 @@ Errors:
 	Example: Trying to divide by zero will throw an error
 	Unless an error is expected (using a 'try' statement or 'AssertRaise'), the error will cause the program to exit
 '''
-class Garage(BaseBuilding): #Garage is a parent of BaseBuilding
+class Garage(BaseBuilding): #Garage is a child of BaseBuilding
     vehicles = [] #A list that hold multiple objects
 
     def enter(self, vehicle):
